@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url(sebastian-svenson-d2w-_1LJioQ-unsplash.jpg);
+            color: whitesmoke;
+            font-family: 'poppins', sans-serif;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 110%;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(165, 91, 42);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(241, 231, 241);
+        }
+
+        nav ul li a:hover {
+            color: rgb(255, 238, 55);
+            font-size: 1.04rem;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row-reverse;
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            color: black;
+        }
+
+        .top-section {
+            flex: 1;
+            background-color: white;
+            margin-bottom: 20px;
+           
+        }
+
+        .bottom-section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> <span class="name">Shahil's Portfolio</span></div>
+            <div class="right">
+                <ul>
+                    <li><a href="/"><b> Home </b></a></li>
+                    <li><a href="second-section.html"> <b>Skill set </b></a></li>
+                    <li><a href="/"> <b>Projects</b> </a></li>
+                    <li><a href="contact.html"> <b>Contact me </b></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="flex-container">
+        <div class="top-section">
+            <video width="320" height="240" controls>
+                <source src="PROJECT.mp4" type="video/mp4">
+              </video>
+        </div>
+        <div class="bottom-section">
+            <p><b>As a 3rd-year BCA student in my 5th semester, I am thrilled to present my first project, Book-Hovenia - a dynamic Java-based commercial web application for book enthusiasts!</b>
+
+                <br><b>📚 Project Highlights:</b>
+                <br>- Technology Stack: Java, Servlets, JDBC, JavaScript, JSP, CSS, and MySQL for the backend and frontend.
+                <br>- IDE: Eclipse
+                <br>- Server: Apache Tomcat
+                
+                <br><b>📖 Key Features:</b>
+                <br>- User-friendly interface with multiple categories for book selection.
+                <br>- Seamless book browsing and purchase functionality.
+                <br>- Secure data handling with user profiles and order details.
+                <br>- A versatile search bar (non-case sensitive) for quick book retrieval.
+                
+                <br><b>🔐 Admin Setup:</b>
+                <br>- Exclusive access to administrators for category and item management.
+                <br>- In-depth order tracking and customer interaction features.
+                
+                <br>Thank you to everyone who has been part of this incredible journey! 🙌
+                
+                <br><b>For any inquiries, please feel free to reach out to me at [email: shahilmahato32@gmail.com/ mob: 9875412051].</b></p>
+        </div>
+    </div>
+</body>
+
+</html>

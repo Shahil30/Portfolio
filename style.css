@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background-image: url(sebastian-svenson-d2w-_1LJioQ-unsplash.jpg);
+    color: whitesmoke;
+    font-family: 'poppins', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 110%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(165, 91, 42);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(241, 231, 241);
+}
+
+nav ul li a:hover {
+    color: rgb(255, 238, 55);
+    
+    font-size: 1.04rem;
+}
+
+.left {
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    width: 30%;
+
+    font-size: 2.5rem;
+}
+
+.rightSection {
+    width: 30%;
+}
+
+.rightSection img {
+    background-color: black;
+   
+    height:auto;
+    border-radius: 50%;
+    margin-top: -25px;
+    margin-left: 40%;
+    -webkit-filter: drop-shadow(5px 5px 5px burlywood);
+    filter: drop-shadow(5px 5px 5px burlywood);
+}
+
+.purple {
+    color: rgb(234, 147, 54);
+    text-shadow: 1px 1px 2px black, 0 0 25px burlywood, 0 0 5px grey;
+    font-size: 5rem;
+    margin-top: -8px;
+
+}
+.purple2 {
+    color: rgb(234, 147, 54);
+    font-size: 5rem;
+    margin-left: 5%;
+    text-shadow: 1px 1px 2px black, 0 0 25px burlywood, 0 0 5px grey;
+}
+.develop {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-left: 13%;
+}
+
+.grey {
+    color: grey;
+}
+
+.secondSection {
+    max-width: 86vw;
+    margin: auto;
+    height: 90vh;
+    margin-top: 44px;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px
+}
+
+
+
+.image-top {
+    width: 40px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+
+
+footer {
+    background-color: black;
+  
+}
+
+.footer {
+
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-right {
+    text-align: center;
+    color: gray;
+    
+}
+
+.leftSection .buttons {
+    padding: 50px 0;
+}
+
+.leftSection .btn1 {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 11%;
+}
+.leftSection .btn2 {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+
+.leftSection .btn1:hover {
+    color: black;
+    background-color: whitesmoke;
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.19);
+    border: 3px solid rgb(128, 92, 0)
+}
+.leftSection .btn2:hover {
+    color: black;
+    background-color: whitesmoke;
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.19);
+    border: 3px solid rgb(128, 92, 0)
+}
+main{
+    margin-top: 7%;
+}
+.profile{
+    width: 68px;
+}
